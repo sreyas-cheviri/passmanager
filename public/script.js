@@ -20,7 +20,7 @@ function displayp(data) {
     passli.innerHTML = '';
     data.forEach(({ name, password }) => {
         const list = document.createElement('li');
-        list.innerHTML = `${name}:${password}`;
+        list.innerHTML = `${name} :  ${password}`;
         list.addEventListener('click', () => {
             list.classList.toggle('strike');
             deletepas(name);
