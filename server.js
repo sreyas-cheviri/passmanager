@@ -17,12 +17,14 @@ app.post('/add', (req, res) => {
     const { name, password } = req.body;
     DBstorage.push({ name, password });
     res.json(DBstorage);
+    console.log(DBstorage);
 });
 
 app.post('/delete', (req, res) => {
     const { name } = req.body;
     DBstorage = DBstorage.filter(item => item.name !== name);
     res.json(DBstorage); // Send the updated DBstorage back
+    console.log(DBstorage);
 });
 
 app.listen(3000, () => {
