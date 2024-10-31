@@ -1,89 +1,91 @@
 @font-face {
-    font-family: 'Shadow-Hand'; /* Name of your font */
-    src: url('./fonts/ShadowHand.ttf') format('woff2'); /* Fallback */
-    font-weight: normal; /* Specify weight */
-    font-style: normal; /* Specify style (normal, italic, etc.) */
+  font-family: "Shadow-Hand"; /* Name of your font */
+  src: url("./fonts/ShadowHand.ttf") format("woff2"); /* Fallback */
+  font-weight: normal; /* Specify weight */
+  font-style: normal; /* Specify style (normal, italic, etc.) */
 }
 
 body {
-    font-family: sans-serif;
-    background-color: #3b3b3b;
-    display: flex;                   /* Use flexbox for the body */
-    justify-content: center;         /* Center horizontally */
-    align-items: center;             /* Center vertically */
-    height: 100vh;                  /* Full height of the viewport */
-    margin: 0;
+  font-family: sans-serif;
+  background-color: #3b3b3b;
+  display: flex; /* Use flexbox for the body */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 100vh; /* Full height of the viewport */
+  margin: 0;
 }
 
 .container {
-    max-width: 600px;
-    margin: auto;
-    background: white;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.727);
-    display: flex;
-            flex-direction: column;}
-    
-.dropdown{
-    margin: 0% 50% ;
+  max-width: 600px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.727);
+  display: flex;
+  flex-direction: column;
+}
+
+.dropdown {
+  margin: 0% 50%;
 }
 h1 {
-    font-family: 'Shadow-Hand';
-    text-align: center;
-    font-size:60px;
-    letter-spacing: 10px;
+  font-family: "Shadow-Hand";
+  text-align: center;
+  font-size: 60px;
+  letter-spacing: 10px;
 }
 
 form {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
 }
 
 input {
-    padding: 10px;
-    width: 40%;
-    margin-right: 10px;
+  padding: 10px;
+  width: 40%;
+  margin-right: 10px;
 }
-input,button{
-    border-radius: 10px;
+input,
+button {
+  border-radius: 10px;
 }
 
 button {
-    padding: 10px;
-    background-color: #0f0f0f;
-    color: white;
-    border: none;
-    cursor: pointer;
-    margin: 2px;
+  padding: 10px;
+  background-color: #0f0f0f;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin: 2px;
 }
 
 button:hover {
-    background-color: #4cae4c;
+  background-color: #4cae4c;
 }
 
 ul {
-    list-style: none;
-    width: 100%;
-    padding: 0;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
+  list-style: none;
+  width: 100%;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
 }
 
 li {
-    display: flex;
-    justify-content: center;
-    padding: 10px;
-    background: #e9ecef;
-    margin: 5px 0;
-    width: 50%;
-    border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  background: #e9ecef;
+  margin: 5px 0;
+  width: 50%;
+  border-radius: 5px;
 }
 
 .strike {
-    text-decoration: line-through;
-    color: red;
+  text-decoration: line-through;
+  color: red;
 }
